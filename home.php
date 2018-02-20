@@ -1,6 +1,6 @@
 <?php
-	// This file checks if file is infected if use ris not admin else if user is admin, it will add the signature (first 20 bytes of file) of malware in database with malware name given by admin.
-	// If the user is not admin,  it searches for the signature obtained from database in file. If found, the file upoaded by user is infected else not.
+	// This file checks if file is infected if user is not admin else if user is admin, it will add the signature (first 20 bytes of file) of malware in database with malware name given by admin.
+	// If the user is not admin, it searches for the signature obtained from database in file. If found, the file upoaded by user is infected else not.
 	// inputs from web page are sanitized and validated (client side and php) before adding to database.
 	// client side validation and php side validation is done on malware name
 	// file signature is sanitized before adding it to database.
